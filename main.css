@@ -1,0 +1,65 @@
+body{ 
+     background-color: lightgrey;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+body {
+    background-image: url("index.background.jpg");
+    width: 1000px;
+    height: 800px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: white
+}
+
+h1{
+    color: white
+}
+
+h2 {
+    color: white
+}
+
+h3 {
+    color: white
+}
+
+li {
+    color: white
+}
+
+th {
+ color:  white 
+}
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+}
+</style>
