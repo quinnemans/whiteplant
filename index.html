@@ -1,88 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- De connectie naar het CSS document en de naam van het document. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="main.css">
+</head>
 
-                                    <!-- Connection to css and document name. -->
-                                    <head>
+<!-- de dropdown menu boven aan het scherm om naar andere pagina's van mijn website te gaan. -->
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Pages:
+      <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="profile.html">About Me</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+    </div>
 
-                                      <meta charset="UTF-8">
-                                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                      <title>Welcome</title>
-                                      <link rel="stylesheet" href="main.css">
-                                  </head>
-                                  <body>
-                                      <div class="navbar">
-                                          <div class="dropdown">
-                                            <button class="dropbtn">Pages: 
-                                              <i class="fa fa-caret-down"></i>
-                                            </button>
-                                            <div class="dropdown-content">
-                                              <a href="index.html">Home</a>
-                                              <a href="profile.html">About Me</a>
-                                              <a href="faq.html">FAQ</a>
-                                              <a href="blog.html">Blog</a>
-                                              <a href="dashboard.html">Dashboard</a>
-                                            </div>
-                                          </div> 
-                                  
-                                          <div class="dropdown">
-                                            <button class="dropbtnusefulltools">Useful Tools:
-                                              <i class="fa fa-caret-down"></i>
-                                            </button>
-                                            <div class="dropdown-usefulltools">
-                                              <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Course and Examination Regulations</a>
-                                              <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">Implementation Regulations</a>
-                                              <a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#e1305df5024f4fa2bab3720976a030f3">Notion</a>
-                                              <a href="https://hz.osiris-student.nl/voortgang">MyHZ study progress</a>
-                                              <a href="https://github.com/HZ-HBO-ICT">GitHub environment of the study program</a>
-                                            </div>
-                                          </div> 
-                                        </div>
+    <!-- Het dropdown menu boven aan het scherm voor de usefull tools. -->
+    <div class="dropdown">
+      <button class="dropbtnusefulltools">Useful Tools:
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-usefulltools">
+        <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Course and Examination Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">Implementation Regulations</a>
+        <a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#e1305df5024f4fa2bab3720976a030f3">Notion</a>
+        <a href="https://hz.osiris-student.nl/voortgang">MyHZ study progress</a>
+        <a href="https://github.com/HZ-HBO-ICT">GitHub environment of the study program</a>
+      </div>
+    </div>
+  </div>
 
-      <img src="hz.logo.jpg" alt=" HZ logo" class="homefoto"
-      width="100%" >
-      <img class="hzlogoboven" src="hzlogo.png" alt="HZ logo"
-      width="130" 
-      height="auto">
-                          <!-- Text about the HZ and why i chose for this education. -->
-<h1> Home </h1>
+  <img src="hz.logo.jpg" alt=" HZ logo" class="homefoto">
+  <img class="hzlogoboven" src="hzlogo.png" alt="HZ logo" width="130" height="auto">
+
+  <!-- De tekst over de HZ en waarom ik voor deze opleiding heb gekozen. -->
+  <h1> Home </h1>
   <table>
     <tr>
-      <th><p> The 'Hogeschool Zeeland' also known as the HZ is a school with many different courses,
-        from computer IT to construction, there is a direction for everything you can think about.
-        At the HZ there are about 5000 students from all over the world and therefore mainly English is spoken. 
-         Even in the international IT class this year there are already students over more than 20 different countries. </p></th>
+      <th>
+        <p> The 'Hogeschool Zeeland' also known as the HZ is a school with many different courses,
+          from computer IT to construction, there is a direction for everything you can think about.
+          At the HZ there are about 5000 students from all over the world and therefore mainly English is spoken.
+          Even in the international IT class this year there are already students over more than 20 different countries.
+        </p>
+      </th>
 
-      <th><p>The course I chose is also the IT education, but instead of the international class I chose the Dutch class.
-        I chose this class because i think the education itself is tough enough. Not that I am not good at English,
-        on the contrary I am quite good at it but I think I would not understand everything if it was all in English.
-        I chose for this education because I have always been interested in computers, I love nothing more than putting
-         computers together and apart
-        and everything that resembles that. I also think that with this education you can go to many different
-         directions since the world is becoming more and more modern.
-        <b> If you want any extra information about the HZ feel free to visit there page </b> <a
-           href="https://hz.nl/">hz.nl</a><br> </p></th>
+      <th>
+        <p>The course I chose is also the IT education, but instead of the international class I chose the Dutch class.
+          I chose this class because i think the education itself is tough enough. Not that I am not good at English,
+          on the contrary I am quite good at it but I think I would not understand everything if it was all in English.
+          I chose for this education because I have always been interested in computers, I love nothing more than
+          putting
+          computers together and apart
+          and everything that resembles that. I also think that with this education you can go to many different
+          directions since the world is becoming more and more modern.
+          <b> If you want any extra information about the HZ feel free to visit there page </b> <a
+            href="https://hz.nl/">hz.nl</a><br>
+        </p>
+      </th>
     </tr>
   </table>
 
-    <h3> Languages on the HZ: </h3>
-    <ul>
-      <li>Dutch</li>
-      <li>Engelisch</li>
-      <li>German</li>
-      <li>Polish</li>
-      <li>Ukranïen</li>
-      <li>Japanese</li>
-      <li>Chinese</li>
-      <li>Korean</li>
-      <li>Spanish</li>
-      <li>Portuguese</li>
-    </ul>
+  <h3> Languages on the HZ: </h3>
+  <ul>
+    <li>Dutch</li>
+    <li>Engelisch</li>
+    <li>German</li>
+    <li>Polish</li>
+    <li>Ukranïen</li>
+    <li>Japanese</li>
+    <li>Chinese</li>
+    <li>Korean</li>
+    <li>Spanish</li>
+    <li>Portuguese</li>
+  </ul>
 
 
-    <p> There are a lot of other languages but it is too much to write them all down. </p>
-
-
-  </body>
-
+  <p> There are a lot of other languages but it is too much to write them all down. </p>
+</body>
 </html>

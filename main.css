@@ -1,65 +1,84 @@
+/* De code voor de afbeeldingen*/
+img.hzlogoboven {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+}
 
+img.homefoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-img.hzlogoboven{
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 0px;
-    margin-right: 0px;
+img.pfp {
+  margin-left: 5px;
+
 }
 
 body {
-    background-image: url("index.background.jpg");
-    background-size: cover;
-    margin: 0;
-    background-repeat: no-repeat;
+  background-image: url("index.background.jpg");
+  background-size: cover;
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+/* De kleuren van de verschillende tekstsoorten */
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 summary {
-    color: white
-}
-
-th{
-vertical-align: top;
-}
-p{
-    color: white
-}
-
-h1{
-    color: white
-}
-
-h2 {
-    color: white
-}
-
-h3 {
-    color: white
-}
-
-li {
-    color: white
+  color: white
 }
 
 th {
- color:  white 
+  vertical-align: top;
+}
+
+p {
+  color: white
+}
+
+h1 {
+  color: white
+}
+
+h2 {
+  color: white
+}
+
+h3 {
+  color: white
+}
+
+li {
+  color: white
+}
+
+th {
+  color: white
 }
 
 label {
-color: white;
+  color: white;
+  
 }
 
-progress {
-width: 100%;
-height: 50px;
+th.ict {
+  color: white;
 }
-/* This is the code for the table in the profile page. */
+
+/* De afmetingen voor de tables die op alle pagina's zijn gebruikt*/
+progress {
+  width: 100%;
+  height: 50px;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -67,18 +86,13 @@ table {
 
 }
 
-td, th {
+td,th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
-
-/* This is the code for the dropdown menu to go to different pages. */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
+/* De code voor de navigatie balk boven in het scherm om naar naar andere pagina's te gaan*/
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -118,7 +132,7 @@ body {
   position: absolute;
   background-color: #ffffff;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 40px;
 }
@@ -143,74 +157,73 @@ body {
 .dropdown:hover .dropdown-usefulltools {
   display: block;
 }
-  img.homefoto
-  {
-align-content: center;
 
-  }
-img.pfp {
-margin-left: 5px;
+th.faq {
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  max-width: 50%;
+  margin-left: 25%;
+  margin-bottom: 2%;
 }
 
-th.faq{
-    font-size: larger;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2%;
-    max-width: 50%;
-    margin-left: 25%;
-    margin-bottom: 2%;
-}
+/* De code die is gebruikt om mijn personal SWOT in verschillende vakken te zetten */
 p.excerpt {
-font-size: smaller ;
+  font-size: smaller;
 }
 
-p.readmore {
-font-size: smaller;
+.swottext {
+  text-align: center;
 }
 
-th.ict {
-color: white;
-}
-
-.swottext{
-text-align: center;
-}
 .swot-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-    justify-content: space-between;
-  }
-  
-  .swot-box {
-    background-color: rgb(86, 199, 199);
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(50% - 20px);
-    box-sizing: border-box;
-  }
-  
-  .swot-box h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .swot-box p {
-    font-size: 1em;
-    margin-bottom: 20px;
-  }
-  
-  /* for Study Choice */
-  .centered-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    min-height: 200px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.swot-box {
+  background-color: rgb(86, 199, 199);
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+.swot-box h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.swot-box p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.centered-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 200px;
+}
+
+/* De code die is toegepast om de links van paars naar donkerblauw en wit te veranderen*/
+.link {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.bloglink {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}

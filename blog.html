@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Connection to css -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="main.css">
+</head>
 
-                            <!-- Connection to css -->
-                            <head>
-                              <meta charset="UTF-8">
-                              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                              <title>Welcome</title>
-                              <link rel="stylesheet" href="main.css">
-                          </head>
-                          <body>
-                              <div class="navbar">
-                                  <div class="dropdown">
-                                    <button class="dropbtn">Pages: 
-                                      <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                      <a href="index.html">Home</a>
-                                      <a href="profile.html">About Me</a>
-                                      <a href="faq.html">FAQ</a>
-                                      <a href="blog.html">Blog</a>
-                                      <a href="dashboard.html">Dashboard</a>
-                                    </div>
-                                  </div> 
-                          
-                  <div class="dropdown">
-                      <button class="dropbtnusefulltools">Useful Tools:
-                  <i class="fa fa-caret-down"></i>
-                   </button>
-                  <div class="dropdown-usefulltools">
-                  <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Course and Examination Regulations</a>
-                  <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">Implementation Regulations</a>
-                  <a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#e1305df5024f4fa2bab3720976a030f3">Notion</a>
-                  <a href="https://hz.osiris-student.nl/voortgang">MyHZ study progress</a>
-                  <a href="https://github.com/HZ-HBO-ICT">GitHub environment of the study program</a>
-                </div>
-              </div> 
-            </div>
-<h1 class="swottext"> Blog Feed</h1>
-<table>
-  <tr> 
-    <th class="faq"> Article 1: Study choice
-    <p class="excerpt"> My Passion for Technology and Computers In today’s world, technology is everywhere, and choosing to study Information and Communication...<br>
-    <a class="readmore" href="studychoice.html"> read more</a> </p> </th>
-  </tr>
-  <tr>
-    <th class="faq"> Article 2: Personal SWOT analysis
-      <p class="excerpt"> I think that one of my biggest strenghts is that I can think calmly about things even in stressfull situations. that way... <br>
-      <a class="readmore" href="personalswot.html"> read more</a> </p>
-    </th>
-  </tr>
+<!-- de dropdown menu boven aan het scherm om naar andere pagina's van mijn website te gaan. -->
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Pages:
+      <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="profile.html">About Me</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+    </div>
 
-  <tr>
-    <th class="faq"> Article 3: Programming experience
-      <p class="excerpt"> There is not to much i can tell you about my previous experience with programming but i will tell you... <br>
-      <a class="readmore" href="programmingexperience.html"> read more</a> </p>
-    </th>
-  </tr>
-  <tr>
-                    
-    <th class="faq"> Article 4: First feedback
-      <p class="excerpt"> TEXT HERE <br>
-      <a class="readmore" href="firstfeedback.html"> read more.....</a> </p>
-     </th>
-  </tr>
-  <tr>
-    
-<th class="faq"> Articel 5: ICT field of work.
-  <p class="excerpt"> Software development involves designing and building applications, from mobile apps to complex systems... <br>
-  <a class="readmore" href="ict.html"> read more</a> </p>
-</th>
-</tr>
-</table>
-  </body>
+    <!-- Het dropdown menu boven aan het scherm voor de usefull tools. -->
+    <div class="dropdown">
+      <button class="dropbtnusefulltools">Useful Tools:
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-usefulltools">
+        <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Course and Examination Regulations</a>
+        <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">Implementation Regulations</a>
+        <a href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#e1305df5024f4fa2bab3720976a030f3">Notion</a>
+        <a href="https://hz.osiris-student.nl/voortgang">MyHZ study progress</a>
+        <a href="https://github.com/HZ-HBO-ICT">GitHub environment of the study program</a>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="swottext"> Blog Feed</h1>
+  <table>
+    <tr>
+      <th class="faq"> Article 1: Study choice
+        <p class="excerpt"> My Passion for Technology and Computers In today’s world, technology is everywhere, and
+          choosing to study Information and Communication...<br>
+          <a class="link" href="studychoice.html"> read more</a>
+        </p>
+      </th>
+    </tr>
+
+    <tr>
+      <th class="faq"> Article 2: Personal SWOT analysis
+        <p class="excerpt"> I think that one of my biggest strenghts is that I can think calmly about things even in
+          stressfull situations. that way... <br>
+          <a class="link" href="personalswot.html"> read more</a>
+        </p>
+      </th>
+    </tr>
+
+    <tr>
+      <th class="faq"> Article 3: Programming experience
+        <p class="excerpt"> There is not to much i can tell you about my previous experience with programming but i will
+          tell you... <br>
+          <a class="link" href="programmingexperience.html"> read more</a>
+        </p>
+      </th>
+    </tr>
+    <tr>
+
+      <th class="faq"> Article 4: First feedback
+        <p class="excerpt"> Welcome on the page of my first feedback. Here I will explain what kind... <br>
+          <a class="link" href="firstfeedback.html"> read more</a>
+        </p>
+      </th>
+    </tr>
+    <tr>
+
+      <th class="faq"> Articel 5: ICT field of work.
+        <p class="excerpt"> Software development involves designing and building applications, from mobile apps to
+          complex systems... <br>
+          <a class="link" href="ict.html"> read more</a>
+        </p>
+      </th>
+    </tr>
+  </table>
+</body>
 </html>
